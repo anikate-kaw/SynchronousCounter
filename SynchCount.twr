@@ -1,0 +1,64 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 2I
+-n 3 -fastpaths -xml SynchCount.twx SynchCount.ncd -o SynchCount.twr
+SynchCount.pcf
+
+Design file:              SynchCount.ncd
+Physical constraint file: SynchCount.pcf
+Device,package,speed:     xa7a100t,csg324,I,-2I (PRELIMINARY 1.07 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+clear          |q<0>           |    6.359|
+clear          |q<1>           |    8.093|
+clear          |q<2>           |   10.333|
+clear          |q<3>           |   11.768|
+clk            |q<0>           |    6.691|
+clk            |q<1>           |    8.425|
+clk            |q<2>           |   10.665|
+clk            |q<3>           |   12.100|
+count          |q<0>           |    6.789|
+count          |q<1>           |    8.523|
+count          |q<2>           |   10.763|
+count          |q<3>           |   12.198|
+---------------+---------------+---------+
+
+
+Analysis completed Tue Jul 04 17:21:54 2017 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 615 MB
+
+
+

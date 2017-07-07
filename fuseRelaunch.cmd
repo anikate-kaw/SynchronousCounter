@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "C:/Users/Anikate/Documents/Projects/SynchCounter2/TopT_isim_beh.exe" -prj "C:/Users/Anikate/Documents/Projects/SynchCounter2/TopT_beh.prj" "work.TopT" "work.glbl" 

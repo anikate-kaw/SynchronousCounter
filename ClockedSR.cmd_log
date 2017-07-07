@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "C:/Users/Anikate/Documents/Projects/SynchCounter2/ClockedSR.xst" -ofn "C:/Users/Anikate/Documents/Projects/SynchCounter2/ClockedSR.syr" 

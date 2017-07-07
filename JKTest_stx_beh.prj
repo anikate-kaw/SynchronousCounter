@@ -1,0 +1,4 @@
+verilog isim_temp "ClockedSR.v"
+verilog isim_temp "MasterSlaveJK.v"
+verilog isim_temp "JKTest.v"
+verilog isim_temp "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

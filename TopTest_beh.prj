@@ -1,0 +1,4 @@
+verilog work "MasterSlaveJK.v"
+verilog work "SynchCount.v"
+verilog work "TopTest.v"
+verilog work "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

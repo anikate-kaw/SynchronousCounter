@@ -1,0 +1,20 @@
+xst -intstyle ise -ifn "C:/Users/Anikate/Documents/Projects/SynchCounter2/SynchCount.xst" -ofn "C:/Users/Anikate/Documents/Projects/SynchCounter2/SynchCount.syr" 
+xst -intstyle ise -ifn "C:/Users/Anikate/Documents/Projects/SynchCounter2/SynchCount.xst" -ofn "C:/Users/Anikate/Documents/Projects/SynchCounter2/SynchCount.syr" 
+xst -intstyle ise -ifn "C:/Users/Anikate/Documents/Projects/SynchCounter2/SynchCount.xst" -ofn "C:/Users/Anikate/Documents/Projects/SynchCounter2/SynchCount.syr" 
+xst -intstyle ise -ifn "C:/Users/Anikate/Documents/Projects/SynchCounter2/SynchCount.xst" -ofn "C:/Users/Anikate/Documents/Projects/SynchCounter2/SynchCount.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xa7a100t-csg324-2I SynchCount.ngc SynchCount.ngd  
+map -intstyle ise -p xa7a100t-csg324-2I -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o SynchCount_map.ncd SynchCount.ngd SynchCount.pcf 
+par -w -intstyle ise -ol high -mt off SynchCount_map.ncd SynchCount.ncd SynchCount.pcf 
+trce -intstyle ise -v 3 -s 2I -n 3 -fastpaths -xml SynchCount.twx SynchCount.ncd -o SynchCount.twr SynchCount.pcf 
+xst -intstyle ise -ifn "C:/Users/Anikate/Documents/Projects/SynchCounter2/SynchCount.xst" -ofn "C:/Users/Anikate/Documents/Projects/SynchCounter2/SynchCount.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xa7a100t-csg324-2I SynchCount.ngc SynchCount.ngd  
+map -intstyle ise -p xa7a100t-csg324-2I -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o SynchCount_map.ncd SynchCount.ngd SynchCount.pcf 
+par -w -intstyle ise -ol high -mt off SynchCount_map.ncd SynchCount.ncd SynchCount.pcf 
+trce -intstyle ise -v 3 -s 2I -n 3 -fastpaths -xml SynchCount.twx SynchCount.ncd -o SynchCount.twr SynchCount.pcf 
+xst -intstyle ise -ifn "C:/Users/Anikate/Documents/Projects/SynchCounter2/SynchCount.xst" -ofn "C:/Users/Anikate/Documents/Projects/SynchCounter2/SynchCount.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xa7a100t-csg324-2I SynchCount.ngc SynchCount.ngd  
+map -intstyle ise -p xa7a100t-csg324-2I -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o SynchCount_map.ncd SynchCount.ngd SynchCount.pcf 
+par -w -intstyle ise -ol high -mt off SynchCount_map.ncd SynchCount.ncd SynchCount.pcf 
+trce -intstyle ise -v 3 -s 2I -n 3 -fastpaths -xml SynchCount.twx SynchCount.ncd -o SynchCount.twr SynchCount.pcf 
+bitgen -intstyle ise -f SynchCount.ut SynchCount.ncd 
+xst -intstyle ise -ifn "C:/Users/Anikate/Documents/Projects/SynchCounter2/SynchCount.xst" -ofn "C:/Users/Anikate/Documents/Projects/SynchCounter2/SynchCount.syr" 
